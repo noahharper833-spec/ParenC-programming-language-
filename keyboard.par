@@ -1,0 +1,8 @@
+# sourcekeyboard.par
+# Reads a key and prints its ASCII code.
+
+    KEY         # block for one key  (++++++++++++++++++++++++++++++++++++++++++)
+    PRINT                            (++++++++++++++++++++)
+    NEWLINE                          (+++++++++++++++++++++)
+    HALT                             (+++++++++++++++++++++++++++++++++++++++++++++++++)
+

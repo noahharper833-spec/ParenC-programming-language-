@@ -1,0 +1,10 @@
+# sourcekernel.par
+# Demonstrates basic arithmetic and prints the kernel banner.
+
+    PUSH 1   # version               (+(+))
+    PUSH 0   # minor                 (+(+/))
+    PRINT                            (++++++++++++++++++++)
+    NEWLINE                          (+++++++++++++++++++++)
+    ABOUT                            (++++++++++++++++++++++++++++++++++++++++++++++++)
+    HALT                             (+++++++++++++++++++++++++++++++++++++++++++++++++)
+

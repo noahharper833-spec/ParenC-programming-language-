@@ -1,0 +1,14 @@
+# testos.par - prints 7  5 = 12, then drops into the shell.
+#
+# Each instruction is one ParenCode group:
+#   opcode operand?
+# Whitespace and comments anything that is not  are ignored.
+
+    PUSH 7       # push 7 onto the stack (+(+++++++))
+    PUSH 5       # push 5 onto the stack (+(+++++))
+    ADD          # pop two, push sum =12 (+++)
+    PRINT        # print top of stack as decimal (++++++++++++++++++++)
+    NEWLINE      # print newline     (+++++++++++++++++++++)
+    SHELL        # drop into interactive shell (++++++++++++++++++++++++++)
+    HALT         # halt the VM       (+++++++++++++++++++++++++++++++++++++++++++++++++)
+

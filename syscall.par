@@ -1,0 +1,10 @@
+# sourcesyscall.par
+# Demonstrates system calls via the filetimebeep opcodes.
+
+    PWD          # print working dir (+++++++++++++++++++++++++++++)
+    TIME         # push packed time  (++++++++++++++++++++++++++++++++++)
+    PRINT                            (++++++++++++++++++++)
+    NEWLINE                          (+++++++++++++++++++++)
+    LS          # list files         (++++++++++++++++++++++++++++)
+    HALT                             (+++++++++++++++++++++++++++++++++++++++++++++++++)
+

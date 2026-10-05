@@ -1,0 +1,9 @@
+# sourcefont.par
+# The kernel's bitmap font is loaded from systemfontsdefault.fnt
+# at boot. This program demonstrates printing via PRINT.
+
+    PUSH 65   # ASCII 'A'            (+(+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++))
+    PRINT                            (++++++++++++++++++++)
+    NEWLINE                          (+++++++++++++++++++++)
+    HALT                             (+++++++++++++++++++++++++++++++++++++++++++++++++)
+

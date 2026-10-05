@@ -1,0 +1,18 @@
+# sourcescheduler.par
+# A simple counted loop demonstrating JNZ. Prints 3 dots.
+
+    PUSH 3          # counter        (+(+++))
+    SET 0                            (++++++++++++++++++++++(+/))
+    # loop_start at PC=18            
+    GET 0                            (+++++++++++++++++++++++(+/))
+    DEC                              (++++++++++)
+    DUP          # not a real opcode; replaced below 
+    # POP one of the duplicates - actually use: 
+    SET 0          # store counter   (++++++++++++++++++++++(+/))
+    GET 0          # push counter    (+++++++++++++++++++++++(+/))
+    PRINT                            (++++++++++++++++++++)
+    GET 0                            (+++++++++++++++++++++++(+/))
+    JNZ 18         # loop while non-zero (+++++++++++++++++++(++++++++++++++++++))
+    NEWLINE                          (+++++++++++++++++++++)
+    HALT                             (+++++++++++++++++++++++++++++++++++++++++++++++++)
+

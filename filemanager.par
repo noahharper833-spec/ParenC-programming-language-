@@ -1,0 +1,6 @@
+# sourcefilemanager.par
+# Lists the initramfs filesystem.
+
+    LS                               (++++++++++++++++++++++++++++)
+    HALT                             (+++++++++++++++++++++++++++++++++++++++++++++++++)
+

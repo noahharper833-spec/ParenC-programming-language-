@@ -1,0 +1,8 @@
+# sourcefilesystem.par
+# Demonstrates the filesystem opcodes read-only on initramfs.
+
+    LS          # list initramfs     (++++++++++++++++++++++++++++)
+    PWD                              (+++++++++++++++++++++++++++++)
+    READ 0     # read etcwelcome.txt (+++++++++++++++++++++++++++++++(+/))
+    HALT                             (+++++++++++++++++++++++++++++++++++++++++++++++++)
+

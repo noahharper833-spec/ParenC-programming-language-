@@ -1,0 +1,8 @@
+# sourceprocess.par
+# Demonstrates process spawnkill in this single-threaded
+# kernel these are stubs that print a notice.
+
+    SPAWN 0   # spawn program 0      (++++++++++++++++++++++++++++++++++++++++++++(+/))
+    KILL  1   # kill pid 1           (+++++++++++++++++++++++++++++++++++++++++++++(+))
+    HALT                             (+++++++++++++++++++++++++++++++++++++++++++++++++)
+

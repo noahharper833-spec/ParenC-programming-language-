@@ -1,0 +1,6 @@
+# sourcewindow.par
+# Opens a window calls WINDOW opcode.
+
+    WINDOW 0    # create window 0    (++++++++++++++++++++++++++++++++++++++(+/))
+    HALT                             (+++++++++++++++++++++++++++++++++++++++++++++++++)
+

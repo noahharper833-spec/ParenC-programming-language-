@@ -1,0 +1,18 @@
+# parenos.par - the ParenOS boot program.
+#
+# This is the .par program that parenc.py compiles and embeds
+# into the bootable ISO. When the kernel boots it loads this
+# bytecode and runs it via the ParenCode VM.
+#
+# The program prints a banner, computes and prints 7  5 =12
+# as a smoke test, then drops into the interactive ParenOS shell.
+
+    PUSH 7                           (+(+++++++))
+    PUSH 5                           (+(+++++))
+    ADD          # 75 = 12           (+++)
+    PRINT        # prints 12         (++++++++++++++++++++)
+    NEWLINE                          (+++++++++++++++++++++)
+    ABOUT        # print about string (++++++++++++++++++++++++++++++++++++++++++++++++)
+    SHELL        # interactive shell (++++++++++++++++++++++++++)
+    HALT                             (+++++++++++++++++++++++++++++++++++++++++++++++++)
+

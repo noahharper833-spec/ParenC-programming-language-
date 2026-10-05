@@ -1,0 +1,6 @@
+# sourceeditor.par
+# Reads etcwelcome.txt from the initramfs and prints it.
+
+    READ 0                           (+++++++++++++++++++++++++++++++(+/))
+    HALT                             (+++++++++++++++++++++++++++++++++++++++++++++++++)
+
